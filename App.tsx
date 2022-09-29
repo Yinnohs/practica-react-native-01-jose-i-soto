@@ -11,6 +11,7 @@ export default function App() {
           <Text style={styles.textColor}> Mi nombre es Jóse ignacio soto leon, actualmente Soy parte del Equipo de QA de una empresa del sector educativo. </Text>
           <Text style={styles.textColor}> Soy bastante perspicas en mi trabajo ademas de que lo disfruto bastante, me permite cierta flexibilidad para dedicarme a mis tareas díarias y enfocarme en el estudio en caso de que sea necesario</Text>
         </View>
+        <QRCode value='https://github.com/Yinnohs' />
       </View>
     </View>
   );
