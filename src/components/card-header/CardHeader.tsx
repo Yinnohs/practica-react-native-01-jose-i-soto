@@ -3,7 +3,7 @@ import { View, Image, StyleSheet, Text, } from "react-native"
 export const CardHeader : React.FC= ()=>{
     return(
         <View style={styles.headerContainer}>
-            <Image source={require('../../assets/profile.jpg')}  style={styles.headerImage}/>
+            <Image source={require('../../images/profile-pic.png')}  style={styles.headerImage}/>
             <Text style={styles.headerText}> José Ignacio Soto León </Text>
         </View>
     )
